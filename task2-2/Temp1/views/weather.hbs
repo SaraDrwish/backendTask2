@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> weather hbs task sara </title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+
+    <div>
+        {{>header}}
+    </div>
+    <section id="weather">
+        <h2> {{title}} from home page </h2>
+        <p> {{desc}} </p>
+        {{!-- <span> {{name}} </span> --}}
+        <p>name : {{country_name}}</p>
+        <p>latitude : {{latitude}}</p>
+        <p>longitude : {{longitude}}</p>
+        <p>temp is : {{temp}} </p>
+        <p>weather is : {{current_weather}}</p>
+     </section>
+     {{!-- <footer>
+        {{>footer}}
+     </footer> --}}
+
+
+
+</body>
+
+</html>

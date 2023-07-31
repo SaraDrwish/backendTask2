@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(224, 240, 246); */
+    color: rgb(43, 61, 79);
+    text-transform: capitalize;
+}
+section{
+    margin: auto;
+    padding: 2%;
+    background-color: gainsboro;
+}
+h2{
+    color: brown;
+    font-size: 2rem;
+    background-color: sandybrown;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: unset;
+    /*display: flex;
+    */font-weight: bold;
+    display: inline-block;
+    padding: 1%;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+a:hover{
+    color: salmon;
+}
+p{
+    color: rgb(57, 0, 57);
+    padding: 2% 0;
+}
+button{
+    background-color: rgb(186, 148, 148);
+    color: rgb(58, 10, 10);
+    padding: 1% 2%;
+    border: none;
+    border-radius: 11%;
+    -webkit-border-radius: 11%;
+    -moz-border-radius: 11%;
+    -ms-border-radius: 11%;
+    -o-border-radius: 11%;
+    cursor: pointer;
+}
+
